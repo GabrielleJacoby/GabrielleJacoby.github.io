@@ -12,9 +12,9 @@ This research was conducted as part of larger programs, including the Summer Und
 
 [Interactive graph of gas production from 1997-2019 per county in Texas]
 
-[Creating a GIF of geographic representatin of oil or gas production](Texas_County_Boundaries_Detailed-shp/Create%20Map%20-%20GIF.ipynb)
+[Creating a GIF of geographic representation of oil or gas production](Texas_County_Boundaries_Detailed-shp/Create%20Map%20-%20GIF.ipynb)
 
-[Creating a MOV of geographic representatin of oil or gas production](Texas_County_Boundaries_Detailed-shp/Create%20Map%20-%20MOV.ipynb)
+[Creating a MOV of geographic representation of oil or gas production](Texas_County_Boundaries_Detailed-shp/Create%20Map%20-%20MOV.ipynb)
 
 [Application of the Hubbert Model to oil production trends](Texas_County_Boundaries_Detailed-shp/Hubbert%20Model%20-%20Oil.ipynb)
 
