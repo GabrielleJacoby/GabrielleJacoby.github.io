@@ -10,8 +10,6 @@ This research was conducted as part of larger programs, including the Summer Und
 
 [Interactive graph of oil production from 1997-2019 per county in Texas](Texas_County_Boundaries_Detailed-shp/Pivot%20Table%20Test.ipynb)
 
-[Interactive graph of gas production from 1997-2019 per county in Texas]
-
 [Creating a GIF of geographic representation of oil or gas production](Texas_County_Boundaries_Detailed-shp/Create%20Map%20-%20GIF.ipynb)
 
 [Creating a MOV of geographic representation of oil or gas production](Texas_County_Boundaries_Detailed-shp/Create%20Map%20-%20MOV.ipynb)
