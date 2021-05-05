@@ -23,5 +23,5 @@ Machine Learning to Predict Future Production:
 [Time Series Analysis - Auto-Regressive Integrated Moving Average (ARIMA) Model](Texas_County_Boundaries_Detailed-shp/Future%20Forecasting.ipynb)  
 This model was able to predict production for a single county, but could be improved to train based on multiple similar counties to predict the future production of another county. 
 
-[Time Series Forecasting using Tensor Flow](Texas_County_Boundaries_Detailed-shp/Tensor%20Flow%20Example%20-%20Production.ipynb)
+[Time Series Forecasting using Tensor Flow](Texas_County_Boundaries_Detailed-shp/Tensor%20Flow%20Example%20-%20Production.ipynb)  
 This model was able to predict production from multiple counties in one continuous data list, but could be improved to recognize that the date of the data is overlapping. 
