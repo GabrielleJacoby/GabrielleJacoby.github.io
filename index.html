@@ -22,7 +22,7 @@
 	  cursor: pointer;
 	  padding: 14px 16px;
 	  font-size: 17px;
-	  width: 33.33333%;
+	  width: 33.33333333333333333333333%;
 	}
 
 	.tablink:hover {
@@ -64,6 +64,25 @@
 	img{
 		height: auto;
 		width:100%}
+		
+	#button {
+		width: 200em;
+		border: 2px solid green;
+		background: #ffe;
+		border-radius: 5px;
+		}
+	a {
+		display: block;
+		width: 100%;
+		line-height: 2em;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 5px;
+	}
+	a:hover {
+		color: red;
+		background: #eff;
+	}
 
 </style>
 </head>
@@ -72,7 +91,6 @@
 <button class="tablink" onclick="openPage('Home', this, 'white')" id="defaultOpen">Home</button>
 <button class="tablink" onclick="openPage('Directory', this, 'white')" >Directory</button>
 <button class="tablink" onclick="openPage('Media', this, 'white')">Media</button>
-<button class="tablink" onclick="openPage('Interactive Plots', this, 'white')">Interactive Plots</button>
 
 <div id="Home" class="tabcontent">
   <h1 style="text-align:center">U.S. Oil & Gas Online Directory</h1>
@@ -446,20 +464,46 @@
 
 <div id="Media" class="tabcontent">
   <body>
-	<h2 style="text-align:center">Media Created from Oil & Gas Data</h2>
+	<h1 style="text-align:center">Media Created from Oil & Gas Data</h1>
+	
+	<br><h2  style="text-align:center">Oil & Gas Production Video Graphic</h2>
+	<h4 style="text-align:center">The video below shows oil production (left) and natural gas production from gas wells (right) during the years, 1993-2019. The data was scraped from the Texas Railroad Commission.</h4>
 	<video width="1280" height="500" controls>
 	  <source src="Oil_Gas_1993_2019.mp4" type="video/mp4">
 	</video>
-	<h4 style="text-align:center">The video above shows oil production (left) and natural gas production from gas wells (right) during the years, 1993-2019. The data was scraped from the Texas Railroad Commission.	</h4>
-
-	</body>
-</div>
-
-<div id="Interactive Plots" class="tabcontent">
-  <body>
-	<h2 style="text-align:center">Interactive Plot of Oil Production per Texas County</h2>
 	
-	<h4 style="text-align:center">The plots above shows oil production during the years, 1993-2019. The data was scraped from the Texas Railroad Commission.	</h4>
+	<br></br>
+	<br></br>
+	<h2  style="text-align:center">Interactive Production Plot</h2>
+	<h4 style="text-align:center">The plot will show oil production per county during the years, 1993-2019. The data was scraped from the Texas Railroad Commission.</h4>
+	
+	<a href="pivottablejs.html"><button>OPEN INTERACTIVE PLOT</button></a>
+	<p style="text-align:center">Please select the following settings after opening the interactive plot.</p>
+	<table class="center"; cellpadding="10">
+			<tr>
+				<td>First Top Left Dropdown</td>
+				<td>Line Chart</td>
+			</tr>
+			<tr>
+				<td>Second Top Left Dropdown</td>
+				<td>Sum</td>
+			</tr>
+			<tr>
+				<td>Third Top Left Dropdown</td>
+				<td>"Value"</td>
+			</tr>
+			<tr>
+				<td>Drag to Top Horizontal Gray Area</td>
+				<td>"Year"</td>
+			</tr>
+			<tr>
+				<td>Drag to Left Vertical Gray Area</td>
+				<td>"County"</td>
+			</tr>
+	
+	<br>
+	<br>
+	
 
 	</body>
 </div>
